@@ -1,0 +1,79 @@
+<!DOCTYPTE html>
+<head>
+</head>
+
+<body id="main">
+  <div class="white-box">
+  <h1 id="title">What is your favorite climbing style?</h1>
+  <p id="description"> We will discover if you are the ultimate climber.
+  </p>
+  
+  <form id="survey-form" action="">
+   
+    <label for="name" id="name-label">Name<br>
+    <input id="name" type="text" required placeholder="Megan Rapinoe">
+    </label><br><br>
+   
+      
+  <label for="email" id="email-label">Email<br>
+    <input id="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="megan.rapinoe@gmail.com">
+    </label><br><br>
+    
+    <label for="number" id="number-label">Age<br>
+    <input id="number" type="number" min="1" max="120" placeholder="35">
+    </label><br><br>
+    
+    <label for="dropdown" id="style-label">Style?<br>
+      <select name="style" id="dropdown">
+        <option value="dynamic">Dynamic</option>
+        <option value="static">Static</option>
+        <option value="mixed">Mixed</option>
+      </select>
+    </label><br><br>
+      
+    <label for="bouldering" id="bouldering-label">Which type of climbing do you most often do?<br>
+      <input id="bouldering" type="radio" value="bouldering" name="bouldering-sport-trad">Bouldering
+    </label><br>
+    
+    <label for="sport-climbing" id="sport-climbing-label">
+      <input id="sport-climbing" type="radio" value="sport-climbing" name="bouldering-sport-trad">Sport Climbing
+    </label><br>
+    
+    <label for="trad" id="trad-label">
+      <input id="trad" type="radio" value="trad" name="bouldering-sport-trad">Traditional
+    </label><br><br>
+    
+    <label for="jug" id="jug-label">What is your favorite type of climbing hold?<br>
+      <input id="jug" value=jug type="checkbox" name="climbing-hold">Jug
+    </label>
+    <br>
+    
+    <label for="pinch" id="pinch-label">
+      <input id="pinch" value="pinch" type="checkbox" name="climbing-hold">Pinch
+    </label>
+    <br>
+    
+    <label for="sidepull" id="sidepull-label">
+      <input id="sidepull" value="sidepull" type="checkbox" name="climbing-hold">Sidepull
+    </label>
+    <br>
+    
+    <label for="crimp" id="crimp-label">
+      <input id="crimp" value="crimp" type="checkbox" name="climbing-hold">Crimp
+    </label>
+    <br><br>
+   
+   <label id="comments">Any comments or suggestions?<br>
+     <textarea id="comments">
+     </textarea>
+    </label>
+     <br>
+    
+    <button type="submit" id="submit">
+      Submit
+    </button>
+  </form>
+  
+  
+  </div>
+</body>
