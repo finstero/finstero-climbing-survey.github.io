@@ -1,0 +1,43 @@
+#main{
+  font-family: "Gill Sans MT", Arial, sans-serif;
+  background-image: url("https://www.climbing.com/.image/t_share/MTQyMzI4ODc1NDc1Njc0OTY2/7_gn-copyjpg.jpg");
+}
+.white-box{
+  background-color: rgba(240,240,240,0.8);
+border-radius: 10px;
+  padding: 10px;
+}
+#title{
+  text-align: center;
+}
+#description{
+  text-align: center;
+}
+#survey-form{
+  
+  background-color: rgba(255, 99, 71, 0.5);
+  color: snow;
+  margin: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#name{
+  width: 100%;
+box-sizing: border-box;}
+#name-label{border-bottom: 200px;}
+#email{width: 100%;
+box-sizing: border-box;}
+#number{width: 100%;
+box-sizing: border-box;}
+#dropdown{width: 100%;
+box-sizing: border-box;}
+#comments{width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+#submit{width: 100%;
+  height: 50px;
+box-sizing: border-box;}
